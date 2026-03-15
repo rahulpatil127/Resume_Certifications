@@ -234,53 +234,80 @@ const modalClose = document.querySelector('.modal-close');
 
 const projectDetails = {
     project1: {
-        title: 'AI-Powered Smart Travel Planner',
+        title: 'PrimeMart Grocery Website',
         fullDescription: `
-            <h2>AI-Powered Smart Travel Planner</h2>
-            <img src="assets/images/travel-planner.png" alt="Travel Planner" style="width:100%; border-radius:12px; margin:20px 0;">
-            <h3>Overview</h3>
-            <p>A generative AI-based web application that creates personalized, comprehensive travel itineraries using the power of Google Gemini API. The system generates detailed day-by-day plans with destination recommendations, activities, and travel tips.</p>
-            <h3>Key Features</h3>
-            <ul>
-                <li>🤖 <strong>AI-Powered Itineraries</strong>: Leverages Google Gemini for intelligent trip planning</li>
-                <li>🖼️ <strong>Dynamic Imagery</strong>: Fetches real destination images via Unsplash API</li>
-                <li>👤 <strong>Session-Based UX</strong>: Personalized experience with user preferences</li>
-                <li>📱 <strong>Responsive Design</strong>: Beautiful UI across all devices</li>
-            </ul>
-            <h3>Tech Stack</h3>
-            <p><strong>Backend:</strong> Python, Flask, Google Gemini API<br>
-            <strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+)<br>
-            <strong>APIs:</strong> Google Gemini, Unsplash</p>
-            <h3>Challenges & Solutions</h3>
-            <p>Integrated real-time AI generation with user-friendly interfaces while handling API rate limits and prompt engineering for consistent output format.</p>
-        `,
-        github: '#',
-        demo: '#'
+        <h2>🛒 PrimeMart Grocery Website</h2>
+        <img src="assets/images/PrimeMart.png" 
+            alt="PrimeMart" 
+            style="width:60%; display:block; margin:20px auto; border-radius:12px;">
+        <h3>Overview</h3>
+        <p>
+        PrimeMart is a full-stack grocery ordering web application developed using Python and Django. 
+        The platform allows users to browse grocery products, add items to the cart, and place orders 
+        through an intuitive and responsive interface.
+        </p>
+
+        <h3>Key Features</h3>
+        <ul>
+            <li>🛒 <strong>Product Browsing</strong>: View and explore various grocery items available in the store</li>
+            <li>🛍️ <strong>Shopping Cart</strong>: Add, update, or remove products from the cart</li>
+            <li>📦 <strong>Order Management</strong>: Place orders easily with real-time cart updates</li>
+            <li>📱 <strong>Responsive Design</strong>: Mobile-friendly UI for seamless shopping</li>
+        </ul>
+
+        <h3>Tech Stack</h3>
+        <p>
+        <strong>Backend:</strong> Python, Django<br>
+        <strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap<br>
+        <strong>Database:</strong> SQLite3
+        </p>
+
+        <h3>Challenges & Solutions</h3>
+        <p>
+        Implemented dynamic cart functionality and efficient database interactions using Django ORM. 
+        Ensured smooth user experience with responsive UI and optimized page loading for better performance.
+        </p>
+    `,
+        github: 'https://github.com/rahulpatil127',
+        demo: 'https://rahulp1.pythonanywhere.com/'
     },
+
     project2: {
-        title: 'Real Estate Price Prediction',
-        fullDescription: `
-            <h2>Real Estate Price Prediction</h2>
-            <img src="assets/images/house-price-prediction.png" alt="Real Estate" style="width:100%; border-radius:12px; margin:20px 0;">
-            <h3>Overview</h3>
-            <p>An end-to-end machine learning web application that predicts house prices based on property features using Linear Regression. The system provides real-time price estimates with an intuitive, modern interface.</p>
-            <h3>Key Features</h3>
-            <ul>
-                <li>🏠 <strong>ML Model</strong>: Linear Regression trained on property dataset</li>
-                <li>📊 <strong>Feature Engineering</strong>: Optimized feature selection for accuracy</li>
-                <li>🎨 <strong>Modern UI</strong>: Clean, responsive frontend</li>
-                <li>⚡ <strong>Real-Time Predictions</strong>: Instant price estimates</li>
-            </ul>
-            <h3>Tech Stack</h3>
-            <p><strong>ML:</strong> Scikit-Learn, Pandas, NumPy<br>
-            <strong>Backend:</strong> Flask, Python<br>
-            <strong>Frontend:</strong> HTML, CSS, JavaScript</p>
-            <h3>Model Performance</h3>
-            <p>Achieved strong predictive accuracy through careful feature engineering and model tuning. The system handles multiple property attributes including location, size, amenities, and more.</p>
-        `,
-        github: '#',
-        demo: '#'
-    },
+    title: 'Photography Portfolio Website',
+    fullDescription: `
+        <h2>📸 Photography Portfolio Website</h2>
+        <img src="assets/images/photography.png" alt="Photography Website" 
+             style="width:55%; display:block; margin:20px auto; border-radius:12px;">
+
+        <h3>Overview</h3>
+        <p>
+        A modern and responsive photography portfolio website designed to showcase
+        professional photography work. The website includes image galleries,
+        service sections, and contact information for potential clients.
+        </p>
+
+        <h3>Key Features</h3>
+        <ul>
+            <li>📸 <strong>Photo Gallery</strong>: Organized image gallery to showcase photography work</li>
+            <li>📱 <strong>Responsive Design</strong>: Optimized layout for desktop, tablet, and mobile devices</li>
+            <li>🎨 <strong>Modern UI</strong>: Clean design to highlight visual content</li>
+            <li>📩 <strong>Contact Section</strong>: Allows clients to easily reach out for bookings</li>
+        </ul>
+
+        <h3>Tech Stack</h3>
+        <p>
+        <strong>Frontend:</strong> HTML5, CSS3, JavaScript
+        </p>
+
+        <h3>Challenges & Solutions</h3>
+        <p>
+        Designed a visually appealing gallery layout while ensuring smooth navigation
+        and responsive behavior across different screen sizes using CSS and JavaScript.
+        </p>
+    `,
+    github: '#',
+    demo: '#'
+},
     project3: {
         title: 'E-Commerce Recommendation System',
         fullDescription: `
